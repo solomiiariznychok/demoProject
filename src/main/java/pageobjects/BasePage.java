@@ -4,7 +4,7 @@ import io.qameta.allure.Step;
 import runners.DefaultRunner;
 
 import static com.codeborne.selenide.Selenide.open;
-import static utils.ApplicationConfigurationProperties.getAppLoginUrl;
+import static utils.AppConfig.getAppLoginUrl;
 
 public class BasePage extends DefaultRunner {
 

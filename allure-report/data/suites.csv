@@ -1,2 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Tue Jun 28 18:51:02 EEST 2022","Tue Jun 28 18:51:14 EEST 2022","11243","Gradle suite","Gradle test","SmokeTest","SmokeTest","verifyMakeOrder","verifyMakeOrder",""

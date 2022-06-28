@@ -5,7 +5,6 @@ import com.codepine.api.testrail.model.Result;
 import com.codepine.api.testrail.model.ResultField;
 import com.codepine.api.testrail.model.Run;
 import org.testng.ITestResult;
-import utils.testrail.TestRailAnnotation;
 
 import java.lang.reflect.Method;
 import java.util.List;
