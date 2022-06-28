@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Gradle suite",
+    "children" : [ {
+      "name" : "Gradle test",
+      "children" : [ {
+        "name" : "SmokeTest",
+        "children" : [ {
+          "name" : "verifyMakeOrder",
+          "uid" : "c1f5df241c8fecac",
+          "parentUid" : "8e97866b1d8863d382714f5534fdbb31",
+          "status" : "failed",
+          "time" : {
+            "start" : 1656431157650,
+            "stop" : 1656431167041,
+            "duration" : 9391
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8e97866b1d8863d382714f5534fdbb31"
+      } ],
+      "uid" : "6edf7b6d6ec097775c478f55491c2a49"
+    } ],
+    "uid" : "350742de9190af4e6a560acc7ec0396c"
+  } ]
+}
