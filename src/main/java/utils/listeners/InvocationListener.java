@@ -16,14 +16,12 @@ public class InvocationListener implements IInvokedMethodListener {
 
     @Override
     public void beforeInvocation(IInvokedMethod method, ITestResult testResult) {
-        //addAttachment("nameTest", new ByteArrayInputStream(screenshot(BYTES)));
-        // Before every method in the Test Class
-        //System.out.println("beforeInvocation: runs before every method in the Test Class");
+        System.out.println("beforeInvocation: runs before every method in the Test Class");
     }
+
 
     @Override
     public void afterInvocation(IInvokedMethod method, ITestResult testResult) {
         addAttachment("nameTest", new ByteArrayInputStream(screenshot(BYTES)));
-        //screenshot(OutputType.BYTES);
     }
 }
